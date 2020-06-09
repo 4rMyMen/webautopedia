@@ -13,6 +13,50 @@
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		* {
+		box-sizing: border-box;
+		}
+
+		body {
+		font-family: Arial, Helvetica, sans-serif;
+		}
+
+		/* Float four columns side by side */
+		.column {
+		float: left;
+		width: 25%;
+		padding: 0 10px;
+		}
+
+		/* Remove extra left and right margins, due to padding */
+		.row {margin: 0 -5px;}
+
+		/* Clear floats after the columns */
+		.row:after {
+		content: "";
+		display: table;
+		clear: both;
+		}
+
+		/* Responsive columns */
+		@media screen and (max-width: 600px) {
+		.column {
+			width: 100%;
+			display: block;
+			margin-bottom: 20px;
+		}
+		}
+
+		/* Style the counter cards */
+		.card {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		padding: 16px;
+		text-align: center;
+		background-color: #f1f1f1;
+		}
+	</style>
 </head>
 <body>
 
@@ -57,7 +101,7 @@
 		</div>
 	</div>
 
-	<!-- Newsletter -->
+	<!-- About Us -->
 
 	<div class="newsletter">
 		<div class="container">
@@ -87,9 +131,32 @@
 			</div>
 		</div>
 	</div>
+	
+	<!-- Contact Us -->
+
+	<div class="newsletter">
+		<div class="newsletter">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<div class="newsletter_border"></div>
+					<div class="newsletter_content text-center">
+						<div class="newsletter_title">Contact Us</div>
+					</div>
+					<div class="newsletter_content text-left">
+						<div class="newsletter_text">
+							<p>Sukolilo | Manyar | Tjokroaminoto<br>Kampus Institut Teknologi Sepuluh Nopember Surabaya</p>
+							
+							<p>Email: humas@its.ac.id<br>Phone: 031-5994251-54, 5947274, 5945472<br>Fax: 031-5923465, 5947845</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- Icon Boxes -->
 
+	<!-- 
 	<div class="icon_boxes">
 		<div class="container">
 			<div class="row">
@@ -100,7 +167,7 @@
 			<div class="newsletter_content">
 				<div class="row icon_box_row">
 				
-					<!-- Icon Box -->
+					<!- Icon Box ->
 					<div class="col-lg-4 icon_box_col">
 						<div class="icon_box">
 							<div class="icon_box_image"><img src="images/icon_1.svg" alt=""></div>
@@ -111,7 +178,7 @@
 						</div>
 					</div>
 	
-					<!-- Icon Box -->
+					<!- Icon Box ->
 					<div class="col-lg-4 icon_box_col">
 						<div class="icon_box">
 							<div class="icon_box_image"><img src="images/icon_2.svg" alt=""></div>
@@ -122,7 +189,7 @@
 						</div>
 					</div>
 	
-					<!-- Icon Box -->
+					<!- Icon Box ->
 					<div class="col-lg-4 icon_box_col">
 						<div class="icon_box">
 							<div class="icon_box_image"><img src="images/icon_3.svg" alt=""></div>
@@ -134,6 +201,60 @@
 					</div>
 				</div>
 		
+			</div>
+		</div>
+	</div> -->
+
+	<!-- Service -->
+
+	<div class="newsletter">
+		<div class="newsletter">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<div class="newsletter_border"></div>
+					<div class="newsletter_content text-center">
+						<div class="newsletter_title">Our Service</div>
+					</div>				
+					<div class="column">
+						<div class="card">
+						<img src="images/service.jpg" alt="Avatar" style="width:100%">
+							<div class="container">
+								<h4><b>Service1</b></h4> 
+								<p>Kita Servicenya apa?</p> 
+							</div>
+						</div>
+					</div>
+
+					<div class="column">
+						<div class="card">
+						<img src="images/service.jpg" alt="Avatar" style="width:100%">
+							<div class="container">
+								<h4><b>Service2</b></h4> 
+								<p>Kita Servicenya apa?</p> 
+							</div>
+						</div>
+					</div>
+					
+					<div class="column">
+						<div class="card">
+						<img src="images/service.jpg" alt="Avatar" style="width:100%">
+							<div class="container">
+								<h4><b>Service3</b></h4> 
+								<p>Kita Servicenya apa?</p> 
+							</div>
+						</div>
+					</div>
+					
+					<div class="column">
+						<div class="card">
+						<img src="images/service.jpg" alt="Avatar" style="width:100%">
+							<div class="container">
+								<h4><b>Service4</b></h4> 
+								<p>Kita Servicenya apa?</p> 
+							</div>
+						</div>
+					</div>			
+				</div>
 			</div>
 		</div>
 	</div>
