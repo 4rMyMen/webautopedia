@@ -16,7 +16,7 @@
 9. Icon Boxes
 10. Newsletter
 11. Footer
-
+12. Service
 
 ******************************/
 
@@ -40,7 +40,7 @@
 }
 body
 {
-	font-family: 'Poppins', sans-serif;
+	font-family: Arial, Helvetica,'Poppins', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
@@ -589,9 +589,9 @@ section
 	color: #767676 !important;
 }
 .wrapper{
-  background: url("../images/bg_hero_home-1400.jpg") no-repeat center ;
+  background: url("https://images.pexels.com/photos/3844524/pexels-photo-3844524.jpeg?cs=srgb&dl=cheerful-man-sitting-at-table-in-workshop-3844524.jpg&fm=jpg") no-repeat center ;
   width: 100%;
-  height: 100vh;
+  height: 92vh;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -1325,13 +1325,14 @@ section
 }
 .newsletter_content
 {
-	padding-top: 88px;
+	padding-top: 50px;
 }
 .newsletter_title
 {
 	font-size: 30px;
 	font-weight: 500;
 	color: #1b1b1b;
+	margin-bottom: 50px;
 }
 .newsletter_text
 {
@@ -1410,6 +1411,17 @@ section
 .newsletter_button:hover span
 {
 	color: #FFFFFF;
+}
+.contact__widget__item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.contact__widget__item span {
+    font-size: 36px;
+    color: #47A1DA;
 }
 
 /*********************************
@@ -1540,4 +1552,44 @@ section
 
 .footer__copyright__social a:last-child {
 	margin-right: 0;
+}
+
+/*********************************
+12. Services
+*********************************/
+
+/* Float four columns side by side */
+.column {
+	float: left;
+	width: 25%;
+	padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+	margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 800px) {
+	.column {
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+
+/* Style the counter cards */
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 16px;
+	text-align: center;
+	background-color: #f1f1f1;
 }
