@@ -46,6 +46,22 @@ body
 	background: #FFFFFF;
 	color: #a5a5a5;
 }
+/**Carousel**/
+.carousel-indicators li {
+    border-radius: 100%;
+    width: 11px;
+	height: 11px;
+}
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 div
 {
 	display: block;
@@ -589,9 +605,9 @@ section
 	color: #767676 !important;
 }
 .wrapper{
-  background: url("https://images.pexels.com/photos/3844524/pexels-photo-3844524.jpeg?cs=srgb&dl=cheerful-man-sitting-at-table-in-workshop-3844524.jpg&fm=jpg") no-repeat center ;
+  
   width: 100%;
-  height: 92vh;
+  height: 100vh;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -862,7 +878,7 @@ section
 {
 	width: 100%;
 	height: 700px;
-	background: #FFFFFF;
+	background: #ffffff;
 	z-index: 2;
 }
 .home_slider_container
