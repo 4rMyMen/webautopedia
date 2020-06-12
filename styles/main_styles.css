@@ -343,6 +343,7 @@ section
 	width: 100%;
 	z-index: 1;
 	background: #FFFFFF;
+	transition: all 0.3s ease;
 }
 .header_content
 {
@@ -1619,6 +1620,7 @@ section
 	padding: 16px;
 	text-align: center;
 	background-color: #f1f1f1;
+	height: 320px;
 }
 
 /*Register*/
